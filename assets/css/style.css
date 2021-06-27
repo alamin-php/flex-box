@@ -142,7 +142,7 @@ body{
     display: inline-block;
     font-size: 16px;
     padding: 10px 15px;
-    margin-top: 10px;
+    margin-top: 20px;
     text-transform: capitalize;
 }
 
@@ -154,7 +154,7 @@ body{
 }
 
 .about-left {
-    flex-basis: 75%;
+    flex-basis: 77%;
 }
 
 .about-menu {
