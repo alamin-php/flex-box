@@ -1,0 +1,76 @@
+/* Medium Layout: 1280px  */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .area{
+        width: 970px;
+    }
+    .welcome-menu {
+        flex-basis: 15%;
+    }
+    .welcome-content {
+        flex-basis: 85%;
+    }
+}
+
+/* Tablet Layout: 768px  */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .area{
+        width: 750px;
+    }
+    .welcome-menu {
+        flex-basis: 20%;
+    }
+    .welcome-content {
+        flex-basis: 80%;
+    }
+}
+
+/* Medium Layout: 320px  */
+
+@media only screen and (max-width: 767px) {
+    .area{
+        width: 320px;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .welcome-menu {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+    .welcome-menu ul li {
+        padding: 3px 0px;
+    }
+    .welcome-content {
+        flex-basis: 100%;
+    }
+    .singel-welcome {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .about-left, .about-menu  {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-single:nth-child(1),.footer-single:nth-child(2),.footer-single:nth-child(3){
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Waid Mobile Layout: 480px  */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .area{
+        width: 450px;
+    }
+}

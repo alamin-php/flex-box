@@ -84,6 +84,9 @@ p{
 .welcome-menu ul {
     list-style: none;
 }
+.welcome-menu ul {
+    padding: 3px 0px;
+}
 
 .welcome-menu ul li a {
     text-decoration: none;
